@@ -1,0 +1,86 @@
+body 
+{
+    margin:0;
+    padding:0;
+    font-family: Monospace, sans-serif;
+    background-image: linear-gradient(to right,pink,skyblue)
+}
+.login{
+    width:400px;
+    margin:auto;
+    margin:20 0 0 450px;
+    padding:50px;
+     display: block;
+    background-color: transparent;
+    }
+    .h2{
+        text-align:center;
+        color:#277582;
+        padding:20px;
+    }
+    #head{
+        color:white;
+    }
+    label{
+        color:#fff;
+        font-size:20px;
+    }
+    #Uname{
+        width:200px;
+        height:30px;
+        border:none;
+        border-radius:3px;
+        padding-left:17px;
+        color:black;
+    } 
+    #pass{
+    width:200px;
+    height:30px;
+    border:none;
+    border-radius:3px;
+    padding-left:17px;
+    color:black;  } 
+    span.psw{ 
+           display:block;
+           float:none; 
+        } 
+        a{
+            float:right; 
+            background-color:none;
+            text-decoration:none;
+            color:white;
+        }a:hover{
+            color:blue;
+        }
+        #log{
+            background-color: blue;
+            border:none;
+            color:white;
+            padding:10px 15px;
+            border-radius: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size:16px;
+        }
+        #log:hover{
+            background-color: white;
+            font-family: 'Times New Roman', Times, serif;
+            color:blue;
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            height:40px;
+            color:black;
+        }
+        th,td{
+            border: 2px solid black;
+            width: 100px;
+            height: 60px;
+            text-align: center;
+            font-size:bold;
+        }
+        th{
+            background-color: transparent;
+        }

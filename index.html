@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>D-MART</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="project.js"></script>
+    <link rel="stylesheet" href="footer/nav.css">
+    <link rel="stylesheet" media="screen and (max-width: 1170px)" href="css/phone.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai|Bree+Serif&display=swap" rel="stylesheet">
+</head>
+<body >
+    <nav>
+        <div id="logo">
+            <img src="img/logo.png">
+            </div>
+        <div class="heading">
+          <h4>D-Mart</h4>
+    </div>
+        <ul class="nav-links">
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="footer/about3.html">About</a></li> 
+            <li><a href="#category">Products</a></li>
+            <li><a href="footer/contact.html">Contact</a></li>
+            <li><a href="search.php"><i class="fa fa-search"></i></a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+            <li><a href="login/register.php"><i class="fa fa-sign-in"></i></a></li>
+          </ul>
+  
+      </nav>
+    <section id="home" style="background:  url('img/laptop.jpg') no-repeat center center/cover;">
+        <h1 class="h-primary">D-MART </h1>
+        <p></p>
+        <a href="#category" > <button class="btn">Order Now</button></a>
+    </section>
+    <section id="category">
+        <h1 class="h-primary center">category</h1>
+        <div id="services">
+            <div class="box">
+            <a href="camclick.php">
+                <button type="submit">
+                <img src="img/p7.jpg" alt="">
+                <h2 class="h-secondary center">cameras</h2>
+                <p class="center">buy cameras at best prices in india upto 80%off on DSLR cameras</p></a>
+                </button>
+            </div>
+            <div class="box">
+                <a href="mobileclick.php">
+                    <button type="submit">
+                    <img src="img/p5.jpg" alt="">
+                <h2 class="h-secondary center">mobiles</h2>
+                <p class="center">buy mobiles at best price in india upto 60% off on branded mobiles </p></a>
+                </button>
+            </div>
+            <div class="box">
+                <a href="lapclick.php">
+			<button type="submit">
+                <img src="img/p6.jpg" alt="">
+                <h2 class="h-secondary center">laptops</h2>
+                <p class="center">buy laptops at 70%off on all branded laptops on best prices </p></a>
+                </button>
+            </div>
+         </section>
+    <footer>
+       <div class="topnav">
+        <a href="footer/contact.html">contact</a>
+        <a href="footer/about3.html">about</a>
+        <a class="active"href="footer/privacypolicy.html">privacy policy</a>
+        <a href="footer/terms&conditions.html">terms and conditions</a>
+        <a href="footer/diclaimer.html">disclaimer</a><br>
+        <p>&copy copyright by bca</a>
+    </footer>
+</body>
+<script>
+    var myVar;
+      
+      function loadfun(){
+        myVar = setTimeout(showPage, 3000);
+      }
+      
+      function showPage() {
+        document.getElementById("loading").style.display = "none";
+        document.getElementById("myDiv").style.display = "block";
+      }
+</script>
+</html>
