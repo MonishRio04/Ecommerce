@@ -1,0 +1,52 @@
+/* CSS reset */
+body{
+  background-color: black;
+}
+
+.flex {
+    display: flex;
+    text-transform: capitalize;
+    background-color: #F2F2F2;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  .login {
+    width: 50%;
+    background-color: #F2F2F2;
+    padding: 15px;
+    
+  }
+  
+  .table {
+    width: 50%;
+    background-color: #F2F2F2;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 5px;
+  }
+  
+  input[type="text"], input[type="file"], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    margin-bottom: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #head {
+    margin-bottom: 30px;
+  }
