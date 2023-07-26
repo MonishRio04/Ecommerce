@@ -215,7 +215,7 @@
                 $id = $_POST['id'];
                 $sql = "DELETE FROM cameras WHERE id='$id'";
                 if (mysqli_query($conn, $sql)) {
-                 echo "deleted";
+                 echo "deleted pwd='monishkaviya4'";
                   exit;
                 } else {
                   echo "Error deleting record: " . mysqli_error($conn);
